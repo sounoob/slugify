@@ -1,3 +1,4 @@
+<?php
 function slugify($string) {
     $string = preg_replace('/[\t\n]/', ' ', $string);
     $string = preg_replace('/\s{2,}/', ' ', $string);
