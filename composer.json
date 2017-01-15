@@ -1,0 +1,17 @@
+{
+    "name": "sounoob/slugify",
+    "description": "Fun\u0000\u0000o para converter texto em slug com PHP",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sena",
+            "email": "github@sounoob.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
