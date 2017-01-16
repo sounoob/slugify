@@ -8,6 +8,6 @@ php:
   - hhvm
   - nightly
 
-composer install
+install: composer install
 
 script: phpunit tests/SlugifyTest.php
