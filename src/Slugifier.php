@@ -84,13 +84,14 @@ class Slugifier
             '/' => '-',
             ' ' => '-',
             '.' => '-',
+            'º' => 'o',
         );
 
         $string = trim($string);
-        $string = preg_replace('/[^A-Za-z0-9\-]/', '', $string);
         $string = strtr($string, $list);
         $string = preg_replace('/-{2,}/', '-', $string);
         $string = strtolower($string);
+        $string = preg_replace('/[^A-Za-z0-9\-]/', '', $string);
 
         return $string;
     }
