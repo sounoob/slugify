@@ -85,6 +85,7 @@ class Slugifier
             ' ' => '-',
             '.' => '-',
             'º' => 'o',
+            'ª' => 'a',
         );
 
         $string = trim($string);
