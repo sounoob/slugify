@@ -1,5 +1,5 @@
 # slugify
-[![Build Status](https://travis-ci.org/xsf/xmpp.org.png?branch=master)](https://travis-ci.org/xsf/xmpp.org)
+[![Build Status](https://travis-ci.org/sounoob/slugify.svg?branch=master)](https://travis-ci.org/sounoob/slugify)
 
 Deu treta, reporta aqui [issues](https://github.com/sounoob/slugify/issues/new).
 
