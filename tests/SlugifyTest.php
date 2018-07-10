@@ -34,6 +34,7 @@ class SlugifyTest extends \PHPUnit\Framework\TestCase
     public function testQuotes()
     {
         $this->assertEquals('eu-tenho-aspas', $this->slugifier->slugify('Eu tenho "aspas"'));
+        $this->assertEquals('eu-tenho-aspas', $this->slugifier->slugify("Eu tenho 'aspas'"));
     }
 
     public function testNumeral()
