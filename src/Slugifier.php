@@ -93,7 +93,7 @@ class Slugifier
         $string = strtr($string, $list);
         $string = preg_replace('/-{2,}/', '-', $string);
         $string = urlencode($string); // Para trocar caracteres especiais por -
-        $string = preg_replace('/%[0-9]+/', '-', $string); // Para trocar caracteres especiais por -
+        $string = preg_replace('/%[0-9]./', '-', $string); // Para trocar caracteres especiais por -
         $string = strtolower($string);
         $string = preg_replace('/[^A-Za-z0-9\-]/', '', $string);
 
